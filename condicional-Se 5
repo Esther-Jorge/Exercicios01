@@ -1,0 +1,21 @@
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main() {
+
+    int idade;
+
+    printf("Digite sua idade: ");
+    scanf("%d", &idade);
+
+    if(idade => 18 || <= 65){
+        printf("Você não é obrigado a votar!");
+    } else {
+        printf("Você é obrigado a votar!");
+    }
+
+    system("pause")
+
+ return 0
+
+}
